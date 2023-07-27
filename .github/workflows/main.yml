@@ -1,0 +1,6 @@
+on [push,merge]
+jobs:
+  runs-on : ubuntu-latest
+  stepts:
+    - run:ls
+    - run:python -c print("Hello Babe")
